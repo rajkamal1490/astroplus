@@ -405,7 +405,7 @@ button:focus {
    ========================================================================== */
 #hero-area {
   background: url(../img/hero-area.jpg) fixed no-repeat;
-  background-size: cover;
+  background-size: contain;
   color: #fff;
   overflow: hidden;
   position: relative;
