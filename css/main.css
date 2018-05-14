@@ -404,7 +404,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/hero-area-mobile.jpg) fixed no-repeat;
+  background: url(../img/hero-area-mobile.jpg) fixed repeat;
   background-size: contain;
   color: #fff;
   overflow: hidden;
@@ -1271,6 +1271,9 @@ footer {
 }
 
 @media (min-width: 1200px)
-#hero-area {
-  background: url(../img/hero-area.jpg) fixed no-repeat;	
+{
+	#hero-area {
+	  background: url(../img/hero-area.jpg) fixed repeat;
+	  background-size: contain;
+	}
 }
